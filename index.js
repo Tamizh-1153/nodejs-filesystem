@@ -3,9 +3,13 @@ const fs = require("fs")
 const path = require("path")
 const app = express()
 
-const folderPath = path.resolve(__dirname, "Files")
 
-app.post("/create-text-file", (req, res) => {
+const folderPath = path.resolve(__dirname, "Files")
+app.use(express.static('./'))
+app.use(express.urlencoded({extended:false}))
+app.use(express.json())
+
+app.post("/file-created", (req, res) => {
     
     const date = new Date()
     const filename = `file_${Date.now()}.txt`

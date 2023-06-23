@@ -1,0 +1,17 @@
+RENDER URL: https://nodejs-filesystem-23j6.onrender.com
+
+API endpoints 
+
+1) https://nodejs-filesystem-23j6.onrender.com/
+	It shows a frontend page to create a file.
+
+2) https://nodejs-filesystem-23j6.onrender.com/file-created
+	It is a backend post request which will create a file with the timestamp.
+
+3) https://nodejs-filesystem-23j6.onrender.com/files
+	It is a backend get request which will get all files.
+
+
+Github repository URL: https://github.com/Tamizh-1153/nodejs-filesystem
+
+last commited hash ID: 8b8350143d51293effcb01de8396f4d98198f217
